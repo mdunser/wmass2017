@@ -2,6 +2,8 @@
 run the python wrapper:
 =======================
 
+## root://eoscms.cern.ch//eos/cms/
+
 ## the files with the WTreeProducer trees are:
 ## /store/group/phys_smp/Wmass/perrozzi/ntuples/ntuples_2014_05_23_53X/WMinusPOWHEG/InclWeights/
 ##      WTreeProducer_tree_1p1.root    WTreeProducer_tree_1p5.root    WTreeProducer_tree_2p3.root    WTreeProducer_tree_3p2.root
