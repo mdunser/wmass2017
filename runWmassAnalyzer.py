@@ -127,9 +127,11 @@ def run((infile, outfile, opts)):
     print '... loading shared object library from %s'%opts.libfile
     gSystem.Load(opts.libfile)
     ## Load it into PyROOT (this is where the magic happens)
-    from ROOT import wmassAnalyzer
+    from ROOT import wmassAnalyzer, TTreeReader
 
-    ana = wmassAnalyzer(tree, opts.charge, opts.lumi, opts.doGEN)
+    treeReader = TTreeReader("WTreeProducer", fb)
+    ana = wmassAnalyzer(treeReader, opts.charge, opts.lumi, opts.doGEN)
+
     if opts.maxEntries > 0:
         ana.setMaxEvents(opts.maxEntries)
 
