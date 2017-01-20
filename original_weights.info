@@ -1,0 +1,3728 @@
+supercounter 0
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.096     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 1
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.100     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 2
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.104     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 3
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.108     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 4
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.112     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 5
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.116     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 6
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.120     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 7
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.124     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 8
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.128     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 9
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.132     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 10
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.136     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 11
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.140     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 12
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.144     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 13
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.148     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 14
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.152     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 15
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.156     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 16
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.160     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 17
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.164     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 18
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.168     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 19
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.172     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 20
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.176     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 21
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.180     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 22
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.184     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 23
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.188     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 24
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.192     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 25
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.196     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 26
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.200     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 27
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.204     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 28
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.208     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 29
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.212     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 30
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.216     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 31
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.220     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 32
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.224     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 33
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.228     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 34
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.232     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 35
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.236     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 36
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.240     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 37
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.244     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 38
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.248     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 39
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.252     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 40
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.256     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 41
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.260     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 42
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.264     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 43
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.268     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 44
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.272     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 45
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.276     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 46
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.280     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 47
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.284     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 48
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.288     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 49
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.292     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 50
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.296     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 51
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.298     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 52
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.300     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 53
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.302     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 54
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.304     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 55
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.306     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 56
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.308     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 57
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.310     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 58
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.312     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 59
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.314     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 60
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.316     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 61
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.318     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 62
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.320     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 63
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.322     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 64
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.324     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 65
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.326     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 66
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.328     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 67
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.330     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 68
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.332     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 69
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.334     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 70
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.336     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 71
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.338     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 72
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.340     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 73
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.342     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 74
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.344     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 75
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.346     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 76
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.348     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 77
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.350     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 78
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.352     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 79
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.354     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 80
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.356     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 81
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.358     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 82
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.360     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 83
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.362     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 84
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.364     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 85
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.366     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 86
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.368     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 87
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.370     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 88
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.372     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 89
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.374     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 90
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.376     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 91
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.378     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 92
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.380     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 93
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.382     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 94
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.384     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 95
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.386     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 96
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.388     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 97
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.390     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 98
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.392     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 99
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.394     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 100
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.396     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 101
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 102
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.400     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 103
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.402     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 104
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.404     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 105
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.406     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 106
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.408     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 107
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.410     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 108
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.412     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 109
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.414     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 110
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.416     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 111
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.418     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 112
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.420     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 113
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.422     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 114
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.424     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 115
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.426     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 116
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.428     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 117
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.430     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 118
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.432     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 119
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.434     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 120
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.436     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 121
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.438     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 122
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.440     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 123
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.442     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 124
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.444     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 125
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.446     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 126
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.448     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 127
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.450     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 128
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.452     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 129
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.454     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 130
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.456     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 131
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.458     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 132
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.460     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 133
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.462     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 134
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.464     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 135
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.466     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 136
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.468     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 137
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.470     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 138
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.472     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 139
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.474     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 140
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.476     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 141
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.478     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 142
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.480     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 143
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.482     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 144
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.484     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 145
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.486     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 146
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.488     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 147
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.490     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 148
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.492     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 149
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.494     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 150
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.496     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 151
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.498     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 152
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.500     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 153
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.504     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 154
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.508     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 155
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.512     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 156
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.516     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 157
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.520     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 158
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.524     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 159
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.528     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 160
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.532     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 161
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.536     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 162
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.540     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 163
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.544     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 164
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.548     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 165
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.552     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 166
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.556     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 167
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.560     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 168
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.564     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 169
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.568     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 170
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.572     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 171
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.576     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 172
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.580     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 173
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.584     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 174
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.588     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 175
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.592     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 176
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.596     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 177
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.600     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 178
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.604     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 179
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.608     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 180
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.612     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 181
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.616     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 182
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.620     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 183
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.624     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 184
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.628     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 185
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.632     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 186
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.636     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 187
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.640     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 188
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.644     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 189
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.648     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 190
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.652     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 191
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.656     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 192
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.660     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 193
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.664     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 194
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.668     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 195
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.672     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 196
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.676     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 197
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.680     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 198
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.684     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 199
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.688     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 200
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.692     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 201
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.696     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 202
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  0.5   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  0.5   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 203
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  0.5   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 204
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  0.5   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 205
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 206
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  2.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 207
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  2.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 208
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  2.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  2.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 209
+lhans1  229800     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229800     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 210
+lhans1  229801     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229801     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 211
+lhans1  229802     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229802     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 212
+lhans1  229803     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229803     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 213
+lhans1  229804     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229804     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 214
+lhans1  229805     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229805     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 215
+lhans1  229806     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229806     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 216
+lhans1  229807     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229807     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 217
+lhans1  229808     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229808     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 218
+lhans1  229809     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229809     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 219
+lhans1  229810     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229810     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 220
+lhans1  229811     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229811     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 221
+lhans1  229812     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229812     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 222
+lhans1  229813     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229813     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 223
+lhans1  229814     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229814     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 224
+lhans1  229815     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229815     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 225
+lhans1  229816     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229816     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 226
+lhans1  229817     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229817     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 227
+lhans1  229818     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229818     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 228
+lhans1  229819     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229819     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 229
+lhans1  229820     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229820     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 230
+lhans1  229821     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229821     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 231
+lhans1  229822     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229822     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 232
+lhans1  229823     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229823     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 233
+lhans1  229824     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229824     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 234
+lhans1  229825     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229825     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 235
+lhans1  229826     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229826     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 236
+lhans1  229827     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229827     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 237
+lhans1  229828     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229828     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 238
+lhans1  229829     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229829     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 239
+lhans1  229830     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229830     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 240
+lhans1  229831     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229831     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 241
+lhans1  229832     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229832     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 242
+lhans1  229833     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229833     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 243
+lhans1  229834     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229834     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 244
+lhans1  229835     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229835     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 245
+lhans1  229836     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229836     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 246
+lhans1  229837     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229837     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 247
+lhans1  229838     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229838     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 248
+lhans1  229839     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229839     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 249
+lhans1  229840     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229840     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 250
+lhans1  229841     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229841     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 251
+lhans1  229842     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229842     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 252
+lhans1  229843     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229843     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 253
+lhans1  229844     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229844     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 254
+lhans1  229845     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229845     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 255
+lhans1  229846     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229846     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 256
+lhans1  229847     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229847     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 257
+lhans1  229848     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229848     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 258
+lhans1  229849     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229849     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 259
+lhans1  229850     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229850     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 260
+lhans1  229851     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229851     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 261
+lhans1  229852     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229852     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 262
+lhans1  229853     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229853     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 263
+lhans1  229854     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229854     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 264
+lhans1  229855     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229855     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 265
+lhans1  229856     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229856     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 266
+lhans1  229857     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229857     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 267
+lhans1  229858     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229858     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 268
+lhans1  229859     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229859     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 269
+lhans1  229860     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229860     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 270
+lhans1  229861     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229861     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 271
+lhans1  229862     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229862     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 272
+lhans1  229863     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229863     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 273
+lhans1  229864     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229864     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 274
+lhans1  229865     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229865     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 275
+lhans1  229866     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229866     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 276
+lhans1  229867     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229867     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 277
+lhans1  229868     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229868     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 278
+lhans1  229869     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229869     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 279
+lhans1  229870     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229870     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 280
+lhans1  229871     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229871     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 281
+lhans1  229872     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229872     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 282
+lhans1  229873     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229873     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 283
+lhans1  229874     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229874     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 284
+lhans1  229875     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229875     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 285
+lhans1  229876     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229876     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 286
+lhans1  229877     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229877     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 287
+lhans1  229878     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229878     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 288
+lhans1  229879     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229879     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 289
+lhans1  229880     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229880     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 290
+lhans1  229881     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229881     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 291
+lhans1  229882     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229882     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 292
+lhans1  229883     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229883     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 293
+lhans1  229884     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229884     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 294
+lhans1  229885     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229885     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 295
+lhans1  229886     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229886     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 296
+lhans1  229887     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229887     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 297
+lhans1  229888     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229888     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 298
+lhans1  229889     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229889     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 299
+lhans1  229890     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229890     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 300
+lhans1  229891     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229891     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 301
+lhans1  229892     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229892     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 302
+lhans1  229893     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229893     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 303
+lhans1  229894     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229894     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 304
+lhans1  229895     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229895     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 305
+lhans1  229896     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229896     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 306
+lhans1  229897     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229897     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 307
+lhans1  229898     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229898     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 308
+lhans1  229899     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229899     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 309
+lhans1  11000     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11000     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 310
+lhans1  11001     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11001     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 311
+lhans1  11002     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11002     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 312
+lhans1  11003     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11003     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 313
+lhans1  11004     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11004     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 314
+lhans1  11005     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11005     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 315
+lhans1  11006     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11006     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 316
+lhans1  11007     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11007     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 317
+lhans1  11008     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11008     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 318
+lhans1  11009     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11009     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 319
+lhans1  11010     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11010     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 320
+lhans1  11011     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11011     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 321
+lhans1  11012     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11012     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 322
+lhans1  11013     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11013     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 323
+lhans1  11014     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11014     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 324
+lhans1  11015     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11015     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 325
+lhans1  11016     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11016     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 326
+lhans1  11017     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11017     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 327
+lhans1  11018     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11018     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 328
+lhans1  11019     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11019     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 329
+lhans1  11020     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11020     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 330
+lhans1  11021     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11021     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 331
+lhans1  11022     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11022     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 332
+lhans1  11023     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11023     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 333
+lhans1  11024     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11024     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 334
+lhans1  11025     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11025     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 335
+lhans1  11026     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11026     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 336
+lhans1  11027     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11027     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 337
+lhans1  11028     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11028     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 338
+lhans1  11029     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11029     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 339
+lhans1  11030     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11030     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 340
+lhans1  11031     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11031     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 341
+lhans1  11032     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11032     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 342
+lhans1  11033     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11033     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 343
+lhans1  11034     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11034     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 344
+lhans1  11035     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11035     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 345
+lhans1  11036     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11036     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 346
+lhans1  11037     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11037     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 347
+lhans1  11038     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11038     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 348
+lhans1  11039     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11039     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 349
+lhans1  11040     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11040     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 350
+lhans1  11041     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11041     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 351
+lhans1  11042     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11042     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 352
+lhans1  11043     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11043     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 353
+lhans1  11044     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11044     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 354
+lhans1  11045     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11045     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 355
+lhans1  11046     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11046     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 356
+lhans1  11047     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11047     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 357
+lhans1  11048     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11048     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 358
+lhans1  11049     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11049     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 359
+lhans1  11050     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11050     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 360
+lhans1  11051     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11051     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 361
+lhans1  11052     ! pdf set for hadron 1 (LHA numbering)
+lhans2  11052     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 362
+lhans1  232000     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232000     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 363
+lhans1  232001     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232001     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 364
+lhans1  232002     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232002     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 365
+lhans1  232003     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232003     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 366
+lhans1  232004     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232004     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 367
+lhans1  232005     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232005     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 368
+lhans1  232006     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232006     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 369
+lhans1  232007     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232007     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 370
+lhans1  232008     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232008     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 371
+lhans1  232009     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232009     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 372
+lhans1  232010     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232010     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 373
+lhans1  232011     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232011     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 374
+lhans1  232012     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232012     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 375
+lhans1  232013     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232013     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 376
+lhans1  232014     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232014     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 377
+lhans1  232015     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232015     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 378
+lhans1  232016     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232016     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 379
+lhans1  232017     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232017     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 380
+lhans1  232018     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232018     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 381
+lhans1  232019     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232019     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 382
+lhans1  232020     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232020     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 383
+lhans1  232021     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232021     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 384
+lhans1  232022     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232022     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 385
+lhans1  232023     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232023     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 386
+lhans1  232024     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232024     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 387
+lhans1  232025     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232025     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 388
+lhans1  232026     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232026     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 389
+lhans1  232027     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232027     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 390
+lhans1  232028     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232028     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 391
+lhans1  232029     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232029     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 392
+lhans1  232030     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232030     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 393
+lhans1  232031     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232031     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 394
+lhans1  232032     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232032     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 395
+lhans1  232033     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232033     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 396
+lhans1  232034     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232034     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 397
+lhans1  232035     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232035     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 398
+lhans1  232036     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232036     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 399
+lhans1  232037     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232037     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 400
+lhans1  232038     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232038     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 401
+lhans1  232039     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232039     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 402
+lhans1  232040     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232040     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 403
+lhans1  232041     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232041     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 404
+lhans1  232042     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232042     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 405
+lhans1  232043     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232043     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 406
+lhans1  232044     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232044     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 407
+lhans1  232045     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232045     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 408
+lhans1  232046     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232046     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 409
+lhans1  232047     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232047     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 410
+lhans1  232048     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232048     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 411
+lhans1  232049     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232049     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 412
+lhans1  232050     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232050     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 413
+lhans1  232051     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232051     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 414
+lhans1  232052     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232052     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 415
+lhans1  232053     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232053     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 416
+lhans1  232054     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232054     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 417
+lhans1  232055     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232055     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 418
+lhans1  232056     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232056     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 419
+lhans1  232057     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232057     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 420
+lhans1  232058     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232058     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 421
+lhans1  232059     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232059     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 422
+lhans1  232060     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232060     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 423
+lhans1  232061     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232061     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 424
+lhans1  232062     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232062     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 425
+lhans1  232063     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232063     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 426
+lhans1  232064     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232064     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 427
+lhans1  232065     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232065     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 428
+lhans1  232066     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232066     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 429
+lhans1  232067     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232067     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 430
+lhans1  232068     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232068     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 431
+lhans1  232069     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232069     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 432
+lhans1  232070     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232070     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 433
+lhans1  232071     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232071     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 434
+lhans1  232072     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232072     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 435
+lhans1  232073     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232073     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 436
+lhans1  232074     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232074     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 437
+lhans1  232075     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232075     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 438
+lhans1  232076     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232076     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 439
+lhans1  232077     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232077     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 440
+lhans1  232078     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232078     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 441
+lhans1  232079     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232079     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 442
+lhans1  232080     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232080     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 443
+lhans1  232081     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232081     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 444
+lhans1  232082     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232082     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 445
+lhans1  232083     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232083     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 446
+lhans1  232084     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232084     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 447
+lhans1  232085     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232085     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 448
+lhans1  232086     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232086     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 449
+lhans1  232087     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232087     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 450
+lhans1  232088     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232088     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 451
+lhans1  232089     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232089     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 452
+lhans1  232090     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232090     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 453
+lhans1  232091     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232091     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 454
+lhans1  232092     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232092     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 455
+lhans1  232093     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232093     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 456
+lhans1  232094     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232094     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 457
+lhans1  232095     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232095     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 458
+lhans1  232096     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232096     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 459
+lhans1  232097     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232097     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 460
+lhans1  232098     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232098     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 461
+lhans1  232099     ! pdf set for hadron 1 (LHA numbering)
+lhans2  232099     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 462
+lhans1  229400     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229400     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 463
+lhans1  229600     ! pdf set for hadron 1 (LHA numbering)
+lhans2  229600     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 464
+lhans1  230000     ! pdf set for hadron 1 (LHA numbering)
+lhans2  230000     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
+supercounter 465
+lhans1  230200     ! pdf set for hadron 1 (LHA numbering)
+lhans2  230200     ! pdf set for hadron 2 (LHA numbering)
+renscfact  1.0   ! (default 1d0) ren scale factor: muren  = muref * renscfact
+facscfact  1.0   ! (default 1d0) fac scale factor: mufact = muref * facscfact
+Wmass   80.398     ! W mass in GeV
+#storeinfo_rwgt 1
+compute_rwgt 1
