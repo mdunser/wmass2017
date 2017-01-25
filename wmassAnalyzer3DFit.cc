@@ -24,6 +24,7 @@
 #include "TTreeReaderValue.h"
 #include "TTreeReaderArray.h"
 
+#include "binning.h"
 #include "nuisanceHistos.h"
 
 #include <iostream>
@@ -55,30 +56,30 @@ private:
 
     // Declaration of the TTreeReaderValues
     // We could do something better with RV and type references. For later.
-    TTreeReaderValue<Int_t>           evtHasGoodVtx = {fTreeReader,"evtHasGoodVtx"};
-    TTreeReaderValue<Double_t>        parton1_pdgId = {fTreeReader,"parton1_pdgId"};
-    TTreeReaderValue<Double_t>        parton1_x = {fTreeReader,"parton1_x"};
-    TTreeReaderValue<Double_t>        parton2_pdgId = {fTreeReader,"parton2_pdgId"};
-    TTreeReaderValue<Double_t>        parton2_x = {fTreeReader,"parton2_x"};
-    TTreeReaderArray<Double_t>        LHE_weight = {fTreeReader,"LHE_weight"};
-    TTreeReaderValue<Double_t>        tkmet = {fTreeReader,"tkmet"};
-    TTreeReaderValue<Double_t>        genpfmet = {fTreeReader,"genpfmet"};
-    TTreeReaderValue<Int_t>           evtHasTrg = {fTreeReader,"evtHasTrg"};
-    TTreeReaderValue<Double_t>        W_pt = {fTreeReader,"W_pt"};
-    TTreeReaderValue<Double_t>        W_mt = {fTreeReader,"W_mt"};
-    TTreeReaderValue<Double_t>        WGen_pt = {fTreeReader,"WGen_pt"};
-    TTreeReaderValue<Double_t>        WGen_rap = {fTreeReader,"WGen_rap"};
-    TTreeReaderValue<Double_t>        WGen_mass = {fTreeReader,"WGen_mass"};
-    TTreeReaderValue<Double_t>        WGen_mt = {fTreeReader,"WGen_mt"};
-    TTreeReaderValue<Double_t>        Mu_pt = {fTreeReader,"Mu_pt"};
-    TTreeReaderValue<Double_t>        Mu_eta = {fTreeReader,"Mu_eta"};
-    TTreeReaderValue<Double_t>        Mu_phi = {fTreeReader,"Mu_phi"};
-    TTreeReaderValue<Double_t>        Mu_charge = {fTreeReader,"Mu_charge"};
-    TTreeReaderValue<Int_t>           MuIsTightAndIso = {fTreeReader,"MuIsTightAndIso"};
-    TTreeReaderValue<Double_t>        MuGen_pt = {fTreeReader,"MuGen_pt"};
-    TTreeReaderValue<Double_t>        MuGen_eta = {fTreeReader,"MuGen_eta"};
-    TTreeReaderValue<Double_t>        MuGen_phi = {fTreeReader,"MuGen_phi"};
-    TTreeReaderValue<Double_t>        MuGen_charge = {fTreeReader,"MuGen_charge"};
+    TTreeReaderValue<Int_t>     evtHasGoodVtx   = {fTreeReader, "evtHasGoodVtx"   };
+    TTreeReaderValue<Double_t>  parton1_pdgId   = {fTreeReader, "parton1_pdgId"   };
+    TTreeReaderValue<Double_t>  parton1_x       = {fTreeReader, "parton1_x"       };
+    TTreeReaderValue<Double_t>  parton2_pdgId   = {fTreeReader, "parton2_pdgId"   };
+    TTreeReaderValue<Double_t>  parton2_x       = {fTreeReader, "parton2_x"       };
+    TTreeReaderArray<Double_t>  LHE_weight      = {fTreeReader, "LHE_weight"      };
+    TTreeReaderValue<Double_t>  tkmet           = {fTreeReader, "tkmet"           };
+    TTreeReaderValue<Double_t>  genpfmet        = {fTreeReader, "genpfmet"        };
+    TTreeReaderValue<Int_t>     evtHasTrg       = {fTreeReader, "evtHasTrg"       };
+    TTreeReaderValue<Double_t>  W_pt            = {fTreeReader, "W_pt"            };
+    TTreeReaderValue<Double_t>  W_mt            = {fTreeReader, "W_mt"            };
+    TTreeReaderValue<Double_t>  WGen_pt         = {fTreeReader, "WGen_pt"         };
+    TTreeReaderValue<Double_t>  WGen_rap        = {fTreeReader, "WGen_rap"        };
+    TTreeReaderValue<Double_t>  WGen_mass       = {fTreeReader, "WGen_mass"       };
+    TTreeReaderValue<Double_t>  WGen_mt         = {fTreeReader, "WGen_mt"         };
+    TTreeReaderValue<Double_t>  Mu_pt           = {fTreeReader, "Mu_pt"           };
+    TTreeReaderValue<Double_t>  Mu_eta          = {fTreeReader, "Mu_eta"          };
+    TTreeReaderValue<Double_t>  Mu_phi          = {fTreeReader, "Mu_phi"          };
+    TTreeReaderValue<Double_t>  Mu_charge       = {fTreeReader, "Mu_charge"       };
+    TTreeReaderValue<Int_t>     MuIsTightAndIso = {fTreeReader, "MuIsTightAndIso" };
+    TTreeReaderValue<Double_t>  MuGen_pt        = {fTreeReader, "MuGen_pt"        };
+    TTreeReaderValue<Double_t>  MuGen_eta       = {fTreeReader, "MuGen_eta"       };
+    TTreeReaderValue<Double_t>  MuGen_phi       = {fTreeReader, "MuGen_phi"       };
+    TTreeReaderValue<Double_t>  MuGen_charge    = {fTreeReader, "MuGen_charge"    };
 
 public :
 
@@ -184,11 +185,9 @@ void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
     int nbins_muEta =  10; float muEta_min = -2.1; float muEta_max =   2.1;
     int nbins_muPt  =  10; float muPt_min  = 30.0; float muPt_max  =  50.0;
 
-    binning bins;
-
     for (int_it = fMassIDVec.begin(); int_it != fMassIDVec.end(); int_it++){
         std::cout << "at mass index " << *int_it << " going to initialize stuff" << std::endl;
-        nuisanceHistos * tmp_nH= new nuisanceHistos(*int_it, "pdf", bins); 
+        nuisanceHistos * tmp_nH= new nuisanceHistos(*int_it, "pdf"); 
         h_mtPtEtaVec.push_back( std::make_pair(*int_it, tmp_nH) );
     }
 

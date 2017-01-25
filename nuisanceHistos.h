@@ -1,20 +1,5 @@
 #include "TString.h"
 
-struct binning {
-    int nbins_mt   ; float mt_min   ; float mt_max   ;
-    int nbins_muEta; float muEta_min; float muEta_max;
-    int nbins_muPt ; float muPt_min ; float muPt_max ;
-
-    binning(){ setValues();};
-    
-    void setValues(){
-    nbins_mt    =  70; mt_min    = 50. ; mt_max    = 120. ;
-    nbins_muEta =  10; muEta_min = -2.1; muEta_max =   2.1;
-    nbins_muPt  =  10; muPt_min  = 30.0; muPt_max  =  50.0;
-    };
-
-};
-
 class nuisanceHistos {
 public:
     int fMassID;
@@ -25,7 +10,7 @@ public:
     bool isPdfUncertainty = false;
 
     nuisanceHistos();
-    nuisanceHistos(int mass, TString nuisanceName, binning bins);
+    nuisanceHistos(int mass, TString nuisanceName);
     ~nuisanceHistos();
     void testFunction(TString a) {std::cout << fMassID << "  " << a << std::endl;};
     void checkAndInit();
@@ -36,10 +21,10 @@ public:
 
 };
 
-nuisanceHistos::nuisanceHistos(int mass, TString nuisanceName, binning bins){
+nuisanceHistos::nuisanceHistos(int mass, TString nuisanceName){
     fMassID = mass; 
     fNuisName = nuisanceName; 
-    fBins = bins;
+    fBins = binning();
     testFunction(fNuisName);
     checkAndInit();
 }
@@ -50,7 +35,7 @@ void nuisanceHistos::checkAndInit(){
     if (fNuisName.Index("pdf") != -1) {
         std::cout << "pdf is in the string" << std::endl;
         nVariations = 53;
-        nuisShort = "p";
+        nuisShort = "pdf";
         isPdfUncertainty = true;
     }
     else if (fNuisName.Index("super") != -1) {
@@ -58,7 +43,7 @@ void nuisanceHistos::checkAndInit(){
     }
 
     for (int var = 0; var<nVariations; var++){
-        TH3F * tmp_h = new TH3F( Form("h_mtPtEta_m%d_"+nuisShort+"%d", fMassID, var), Form("h_mtPtEta_m%d_"+nuisShort+"%d", fMassID, var), 
+        TH3F * tmp_h = new TH3F( Form("h_mtPtEta_mass%d_"+nuisShort+"%d", fMassID, var), Form("h_mtPtEta_mass%d_"+nuisShort+"%d", fMassID, var), 
                                  fBins.nbins_muEta, fBins.muEta_min, fBins.muEta_max, 
                                  fBins.nbins_muPt , fBins.muPt_min , fBins.muPt_max , 
                                  fBins.nbins_mt   , fBins.mt_min   , fBins.mt_max   ); tmp_h->Sumw2();
