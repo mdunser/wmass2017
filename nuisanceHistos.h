@@ -71,10 +71,10 @@ void nuisanceHistos::checkAndInit(){
 
 std::vector<float> nuisanceHistos::fillHistos(float eta, float pt, float mt, std::vector<float> weightsVec){
     if (weightsVec.size() != h_mtPtEta.size() ){
-        std::cout << Form("YOU ARE TRYING TO FILL UNCERTAINTY "+fNuisName+" WITH A DIFFERENT SIZED VECTOR!!") << std::endl;
+        std::cout << "YOU ARE TRYING TO FILL UNCERTAINTY " << fNuisName << " WITH A DIFFERENT SIZED VECTOR!!" << std::endl;
         exit(0);
     }
-    for (int i = 0; i < h_mtPtEta.size(); i++){
+    for (unsigned int i = 0; i < h_mtPtEta.size(); i++){
         // std::cout << "mass " << fMassID << " at variation in float vector " << i << " filling histogram with var " << h_mtPtEta[i].first << " with name " << h_mtPtEta[i].second->GetName() << std::endl;
         h_mtPtEta[i].second->Fill( eta, pt, mt, weightsVec[ i ] );
     }
@@ -84,7 +84,7 @@ std::vector<float> nuisanceHistos::fillHistos(float eta, float pt, float mt, std
 
 void nuisanceHistos::writeHistos(TFile * f){
     f->cd();
-    for (int i = 0; i < h_mtPtEta.size(); i++){
+    for (unsigned int i = 0; i < h_mtPtEta.size(); i++){
         h_mtPtEta[i].second->Write();
     }
 }

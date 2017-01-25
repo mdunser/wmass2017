@@ -220,11 +220,11 @@ TList* wmassAnalyzer::GetHistosList(){
 
     auto l = new TList();
     l->Add(h_nominal_mtPtEta);
-    for (int m=0; m< fNMasses; m++) {
-        for (int p = 0; p<fNPDFsCT10+1; p++){
-            l->Add(h_mtPtEta[m][p]);
-        }
-    }
+    // for (int m=0; m< fNMasses; m++) {
+    //     for (int p = 0; p<fNPDFsCT10+1; p++){
+    //         l->Add(h_mtPtEta[m][p]);
+    //     }
+    // }
 
     l->Add(h_pdfCheckUp);
     l->Add(h_pdfCheckDn);
@@ -238,8 +238,8 @@ bool wmassAnalyzer::IsGoodEvent()
     if(!*evtHasTrg)          return false;
     if(*tkmet  < 25.)        return false;
     if(!*MuIsTightAndIso)    return false;
-    // if(std::abs(*WGen_rap)  > 0.5)  return false;
-    // if(*W_pt  > 10.)  return false; // upper cut on W-pt
+    if(std::abs(*WGen_rap)  > 0.5)  return false;
+    if(*W_pt  > 10.)  return false; // upper cut on W-pt
 
     // very basic event selection
     if (doGEN) {
