@@ -230,13 +230,15 @@ public :
     virtual bool IsGoodEvent();
     virtual void fillHistograms();
     virtual void fillPDFCheck();
+    virtual void fillGigiCheck();
     virtual void setMaxEvents(int me){fMaxEvents = me;};
     
     //TH2F * nominal_mtEta;
-    TH3F * h_nominal_mtPtEta;
-    TH3F * h_mtPtEta[21][53];
-    TH2F * h_pdfCheckUp;
-    TH2F * h_pdfCheckDn;
+  TH3F * h_nominal_mtPtEta;
+  TH3F * h_Gigi_check;
+  TH3F * h_mtPtEta[21][53];
+  TH2F * h_pdfCheckUp;
+  TH2F * h_pdfCheckDn;
 
     
 
@@ -288,6 +290,7 @@ wmassAnalyzer::wmassAnalyzer(TTree *tree, int charge, float lumi, bool doGen) : 
 
 wmassAnalyzer::~wmassAnalyzer()
 {
+  return;
     if (!fChain) return;
     delete fChain->GetCurrentFile();
 }
@@ -468,9 +471,10 @@ void wmassAnalyzer::RunJob(TString filename, bool isData){
   
 void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
     file->cd();
-    int nbins_mt    =  70; float mt_min    = 50. ; float mt_max    = 120. ;
-    int nbins_muEta =  10; float muEta_min = -2.1; float muEta_max =   2.1;
-    int nbins_muPt  =  10; float muPt_min  = 30.0; float muPt_max  =  50.0;
+    int nbins_mt    =  70; float mt_min    = 40. ; float mt_max    = 110. ;
+    int nbins_muEta =  10; float muEta_min = 0; float muEta_max =   2.1;
+    int nbins_muPt  =  100; float muPt_min  = 25.0; float muPt_max  =  50.0;
+    int nbins_logx = 10; float logx_min  = -8.0;  float logx_max  = 8.0;
 
     // make histograms for mt and muEta
     h_nominal_mtPtEta = new TH3F("h_nominal_mtPtEta", "h_nominal_mtPtEta", nbins_muEta, muEta_min, muEta_max, nbins_muPt, muPt_min, muPt_max, nbins_mt, mt_min, mt_max);
@@ -481,22 +485,41 @@ void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
             h_mtPtEta[m][p] ->Sumw2();
         } // end loop on pdf variations
     } // end loop on masses
-    h_pdfCheckUp = new TH2F("pdfWeightUp", "pdfWeightUp", 120, 70, 100, 1000, -0.5, 30.);
-    h_pdfCheckDn = new TH2F("pdfWeightDn", "pdfWeightDn", 120, 70, 100, 1000, -0.5, 30.);
-    h_pdfCheckUp ->Sumw2();
-    h_pdfCheckDn ->Sumw2();
+    h_pdfCheckUp = new TH2F("pdfWeightUp", "pdfWeightUp", 120, 70, 100, 1000, -0.5, 30.); h_pdfCheckUp ->Sumw2();
+    h_pdfCheckDn = new TH2F("pdfWeightDn", "pdfWeightDn", 120, 70, 100, 1000, -0.5, 30.); h_pdfCheckDn ->Sumw2();
+
+    h_Gigi_check = new TH3F("h_Gigi_check", "h_Gigi_check", nbins_muEta, muEta_min, muEta_max, nbins_muPt, muPt_min, muPt_max, nbins_logx, logx_min, logx_max);
+    h_Gigi_check->Sumw2(); 
 }
 
 void wmassAnalyzer::End(TFile *file){
     file->cd();
     h_nominal_mtPtEta -> Write();
+    h_Gigi_check->Write();
+
+    for(int i=0; i<h_Gigi_check->GetNbinsX()+1; i++){
+
+      TString etamu=Form("_eta%f_",h_Gigi_check->GetXaxis()->GetBinCenter(i));
+
+      for(int k=0; k<h_Gigi_check->GetNbinsX()+1; k++){
+
+        TString ptmu=Form("_pt%f_",h_Gigi_check->GetYaxis()->GetBinCenter(k));
+
+        TH1D *proj=(TH1D*) h_Gigi_check->ProjectionZ(etamu+ptmu, i, i, k, k);
+	proj->Write();
+
+      }
+
+    }
+
     for (int m=0; m< fNMasses; m++){
         for (int p = 0; p<fNPDFsCT10+1; p++){
             h_mtPtEta[m][p] -> Write();
         }
     }
-    //file->Write();
 
+
+    //file->Write();
     h_pdfCheckUp -> Write();
     h_pdfCheckDn -> Write();
 
@@ -528,8 +551,7 @@ bool wmassAnalyzer::IsGoodEvent()
     if(!evtHasTrg)          return false;
     if(tkmet  < 25.)        return false;
     if(!MuIsTightAndIso)    return false;
-// TEST FOR GIGI
-    if(fabs(WGen_rap)  > 0.5)  return false;
+    // if(fabs(WGen_rap)  > 0.5)  return false;
 // upper cut on W-pT
     if(W_pt  > 10.)  return false;
 
@@ -580,7 +602,8 @@ void wmassAnalyzer::Loop()
 
         // do relevant things here
         fillHistograms();
-        fillPDFCheck();
+        fillGigiCheck();
+        //fillPDFCheck();
 
     } // end loop on events
     double elapsed = stopWatch.RealTime();
@@ -609,6 +632,19 @@ void wmassAnalyzer::fillHistograms(){
         } // end for loop over pdf variations
     } // end for loop over masses
 } // end fillMTandETAHistograms
+
+void wmassAnalyzer::fillGigiCheck(){
+
+  float x1 = parton1_x;
+  float x2 = parton2_x;
+  float log= TMath::Log(x1/x2);
+  
+  float pt  = (doGEN ? MuGen_pt  : Mu_pt );
+  float eta = (doGEN ? MuGen_eta : Mu_eta);
+  float mt  = (doGEN ? WGen_mt   : W_mt  );
+  
+  h_Gigi_check->Fill(eta, pt, log, fLumiWeight);
+} // end fillGigiCheck function
 
 void wmassAnalyzer::fillPDFCheck(){
 
