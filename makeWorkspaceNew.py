@@ -131,8 +131,8 @@ def unfoldHistogram(th3, charge):
 # buggy file_pos = '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/2016-11-03-pdfCheck_rap0p5/WTreeProducer_Wplus_Lumi20.root'
 # file_neg = '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/2016-11-04-pdfCheck_rap0p5/WTreeProducer_Wminus_Lumi20.root'
 # file_pos = '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/2016-11-04-pdfCheck_rap0p5/WTreeProducer_Wplus_Lumi20.root'
-file_neg = '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/2016-11-07-pdfCheck_rap0p5_RECO/WTreeProducer_Wminus_Lumi20.root'
-file_pos = '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/2016-11-07-pdfCheck_rap0p5_RECO/WTreeProducer_Wplus_Lumi20.root'
+file_neg = '/afs/cern.ch/work/e/emanca/private/wmass2017/2017-06-02-QuickPDFTest/WTreeProducer_tree_1p5_Wminus_Lumi20.root'
+file_pos = '/afs/cern.ch/work/e/emanca/private/wmass2017/2017-06-02-QuickPDFTest/WTreeProducer_tree_1p1_Wplus_Lumi20.root'
 
 tmp_f_pos = ROOT.TFile(file_pos,'READ')
 tmp_f_neg = ROOT.TFile(file_neg,'READ')
@@ -170,10 +170,7 @@ histos_dif_eta_4          = histoset('dif_eta_4'         )
 histos_dif_eta_5          = histoset('dif_eta_5'         ) 
 #histos_eta_6          = histoset('eta_6'         ) 
 
-all_hsets += [histos_inclusive_pt  ,
-              histos_inclusive_eta ,
-              histos_inclusive_both,
-              histos_full_binning  ]
+all_hsets += [histos_inclusive_pt]
 
 massids = [91, 96, 101, 106, 111]
 
@@ -185,86 +182,21 @@ for i_h,h_name in enumerate(lo_hist_names):
     h_tmp_pos = copy.deepcopy(tmp_f_pos.Get(h_name) )
     h_tmp_neg = copy.deepcopy(tmp_f_neg.Get(h_name) )
 
-    h_tmp_sum = copy.deepcopy(tmp_f_pos.Get(h_name) )
-    h_tmp_sum.Add(copy.deepcopy(tmp_f_neg.Get(h_name) ), 1.)
-    h_tmp_dif = copy.deepcopy(tmp_f_pos.Get(h_name) )
-    h_tmp_dif.Add(copy.deepcopy(tmp_f_neg.Get(h_name) ), -1.)
-
     if not h_tmp_pos or not h_tmp_neg: 
         print 'BOTH HISTOGRAMS WERE NOT FOUND!!! EXITING...'
         exit(0)
     histos_pos = unfoldHistogram(h_tmp_pos,  1)
     histos_neg = unfoldHistogram(h_tmp_neg, -1)
-    histos_sum = unfoldHistogram(h_tmp_sum,  2)
-    histos_dif = unfoldHistogram(h_tmp_dif, -2)
-    histos_inclusive_both .extendHistos([histos_pos[0],histos_neg[0]])
     histos_inclusive_pt   .extendHistos(histos_pos[1].values()+histos_neg[1].values())
-    histos_inclusive_eta  .extendHistos(histos_pos[2].values()+histos_neg[2].values())
-    histos_full_binning   .extendHistos(histos_pos[3].values()+histos_neg[3].values())
-
-    histos_sum_inclusive_both .extendHistos([histos_sum[0]])
-    histos_sum_inclusive_pt   .extendHistos(histos_sum[1].values())
-    histos_sum_inclusive_eta  .extendHistos(histos_sum[2].values())
-    histos_sum_full_binning   .extendHistos(histos_sum[3].values())
-
-    histos_dif_inclusive_both .extendHistos([histos_dif[0]])
-    histos_dif_inclusive_pt   .extendHistos(histos_dif[1].values())
-    histos_dif_inclusive_eta  .extendHistos(histos_dif[2].values())
-    histos_dif_full_binning   .extendHistos(histos_dif[3].values())
 
 stdout.write("\n") 
     
 outpath = 'inputForCombine/unmorph/{date}/'.format(date=date)
 
-histos_eta_1   .copyHistosFromBinned(histos_inclusive_pt, ['_eta1$', '_eta1_v', '_eta10$', '_eta10_v'])
-histos_eta_2   .copyHistosFromBinned(histos_inclusive_pt, ['_eta2$', '_eta2_v', '_eta9$', '_eta9_v'])
-histos_eta_3   .copyHistosFromBinned(histos_inclusive_pt, ['_eta3$', '_eta3_v', '_eta8$', '_eta8_v'])
-histos_eta_4   .copyHistosFromBinned(histos_inclusive_pt, ['_eta4$', '_eta4_v', '_eta7$', '_eta7_v'])
-histos_eta_5   .copyHistosFromBinned(histos_inclusive_pt, ['_eta5$', '_eta5_v', '_eta6$', '_eta6_v'])
-#histos_eta_6   .copyHistosFromBinned(histos_inclusive_pt, ['_eta6$', '_eta6_v'])
-
-histos_sum_eta_1   .copyHistosFromBinned(histos_sum_inclusive_pt, ['_eta1$', '_eta1_v', '_eta10$', '_eta10_v'])
-histos_sum_eta_2   .copyHistosFromBinned(histos_sum_inclusive_pt, ['_eta2$', '_eta2_v', '_eta9$', '_eta9_v'])
-histos_sum_eta_3   .copyHistosFromBinned(histos_sum_inclusive_pt, ['_eta3$', '_eta3_v', '_eta8$', '_eta8_v'])
-histos_sum_eta_4   .copyHistosFromBinned(histos_sum_inclusive_pt, ['_eta4$', '_eta4_v', '_eta7$', '_eta7_v'])
-histos_sum_eta_5   .copyHistosFromBinned(histos_sum_inclusive_pt, ['_eta5$', '_eta5_v', '_eta6$', '_eta6_v'])
-
-histos_dif_eta_1   .copyHistosFromBinned(histos_dif_inclusive_pt, ['_eta1$', '_eta1_v', '_eta10$', '_eta10_v'])
-histos_dif_eta_2   .copyHistosFromBinned(histos_dif_inclusive_pt, ['_eta2$', '_eta2_v', '_eta9$', '_eta9_v'])
-histos_dif_eta_3   .copyHistosFromBinned(histos_dif_inclusive_pt, ['_eta3$', '_eta3_v', '_eta8$', '_eta8_v'])
-histos_dif_eta_4   .copyHistosFromBinned(histos_dif_inclusive_pt, ['_eta4$', '_eta4_v', '_eta7$', '_eta7_v'])
-histos_dif_eta_5   .copyHistosFromBinned(histos_dif_inclusive_pt, ['_eta5$', '_eta5_v', '_eta6$', '_eta6_v'])
-
-all_hsets += [ 
-    histos_eta_1, 
-    histos_eta_2, 
-    histos_eta_3, 
-    histos_eta_4,
-    histos_eta_5,
-#    histos_eta_6,
-    histos_sum_eta_1, 
-    histos_sum_eta_2, 
-    histos_sum_eta_3, 
-    histos_sum_eta_4,
-    histos_sum_eta_5,
-    histos_dif_eta_1, 
-    histos_dif_eta_2, 
-    histos_dif_eta_3, 
-    histos_dif_eta_4,
-    histos_dif_eta_5,
-]
-
 for hset in all_hsets:
     hset.normalizeVariations()
     hset.writeFile(outpath)
     hset.writeDatacards()
-    
-for hset in [histos_eta_1, histos_eta_2, histos_eta_3, histos_eta_3, histos_eta_4, histos_eta_5 ]:
-    hset.normalizeVariations()
-    hset.writeFile(outpath, 'minus')
-    hset.writeDatacards('minus')
-    hset.writeFile(outpath, 'plus')
-    hset.writeDatacards('plus')
 
 #tmp_f_pos.Close()
 #tmp_f_neg.Close()

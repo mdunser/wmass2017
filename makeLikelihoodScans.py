@@ -102,28 +102,13 @@ class likelihood:
 ## lh_incPtEta       = likelihood('higgsCombine2016-10-28_inclusive_both.POINTSFULL.MultiDimFit.mH120.root'                  , 'incPtEta_withPDF' , 'inclusive w/ PDF'          , 6 , 23)
 ## lh_incPtEta_noPDF = likelihood('higgsCombine2016-10-28_inclusive_both_noPDFUncertainty.POINTSFULL.MultiDimFit.mH120.root' , 'incPtEta_noPDF'   , 'inclusive no PDF'          , 6 , 32)
 
-lh_eta_5           = likelihood('higgsCombine2016-11-25_charges_eta_5.MultiDimFit.mH120.root'                       , 'eta_5_withPDF'    , 'W^{#pm} central w/ PDF'    ,  1 , 20)
-lh_eta_5_noPDF     = likelihood('higgsCombine2016-11-25_charges_eta_5_noPDFUncertainty.MultiDimFit.mH120.root'      , 'eta_5_noPDF'      , 'W^{#pm} central no PDF'    ,  1 , 24)
-lh_sum_eta_5       = likelihood('higgsCombine2016-11-25_charges_sum_eta_5.MultiDimFit.mH120.root'                   , 'sum_eta_5_withPDF', 'W^{+}+W^{-} central w/ PDF',  2 , 23)
-lh_sum_eta_5_noPDF = likelihood('higgsCombine2016-11-25_charges_sum_eta_5_noPDFUncertainty.MultiDimFit.mH120.root'  , 'sum_eta_5_noPDF'  , 'W^{+}+W^{-} central no PDF',  2 , 32)
-lh_dif_eta_5       = likelihood('higgsCombine2016-11-25_charges_dif_eta_5.MultiDimFit.mH120.root'                   , 'dif_eta_5_withPDF', 'W^{+}-W^{-} central w/ PDF',  3 , 21)
-lh_dif_eta_5_noPDF = likelihood('higgsCombine2016-11-25_charges_dif_eta_5_noPDFUncertainty.MultiDimFit.mH120.root'  , 'dif_eta_5_noPDF'  , 'W^{+}-W^{-} central no PDF',  3 , 25)
-lh_neg_eta_5       = likelihood('higgsCombine2016-11-25_charges_minus_eta_5.MultiDimFit.mH120.root'                 , 'neg_eta_5_withPDF', 'W^{-} central w/ PDF'      ,  4 , 22)
-lh_neg_eta_5_noPDF = likelihood('higgsCombine2016-11-25_charges_minus_eta_5_noPDFUncertainty.MultiDimFit.mH120.root', 'neg_eta_5_noPDF'  , 'W^{-} central no PDF'      ,  4 , 26)
-lh_pos_eta_5       = likelihood('higgsCombine2016-11-25_charges_plus_eta_5.MultiDimFit.mH120.root'                  , 'pos_eta_5_withPDF', 'W^{+} central w/ PDF'      ,  5 , 21)
-lh_pos_eta_5_noPDF = likelihood('higgsCombine2016-11-25_charges_plus_eta_5_noPDFUncertainty.MultiDimFit.mH120.root' , 'pos_eta_5_noPDF'  , 'W^{+} central no PDF'      ,  5 , 25)
+
+lh_inclusive_pt       = likelihood('higgsCombine2017-02-03_inclusive_pt.MultiDimFit.mH120.root'                   , 'inclusive_pt_withPDF', 'W^{+}+W^{-}  w/ PDF',  2 , 23)
+lh_inclusive_pt_noPDF = likelihood('higgsCombine2017-02-03_inclusive_pt_noPDFUncertainty.MultiDimFit.mH120.root'  , 'inclusive_pt_noPDF'  , 'W^{+}+W^{-}  no PDF',  2 , 32)
 
 lhs = [
- lh_eta_5           ,
- lh_eta_5_noPDF     ,
- lh_sum_eta_5       ,
- lh_sum_eta_5_noPDF ,
- lh_dif_eta_5       ,
- lh_dif_eta_5_noPDF ,
- lh_neg_eta_5       ,
- lh_neg_eta_5_noPDF ,
- lh_pos_eta_5       ,
- lh_pos_eta_5_noPDF ,
+lh_inclusive_pt,
+lh_inclusive_pt_noPDF
 ]
 
 canv = ROOT.TCanvas('canv', 'canv', 800,600)
@@ -158,7 +143,7 @@ line.Draw('same')
 #for i,l in enumerate(lhs):
 #    l.line.Draw()
 
-outpath = '/afs/cern.ch/user/m/mdunser/www/private/wmass/pdf_uncertainties/{date}/'.format(date=date)
+outpath = '/afs/cern.ch/user/e/emanca/work/public/{date}/'.format(date=date)
 if not os.path.exists(outpath):
     os.makedirs(outpath)
     os.system('cp ~/index.php {op}'.format(op=outpath))

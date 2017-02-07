@@ -65,7 +65,6 @@ def harvestEm(subdir, mwrange, charge='both'):
     writer.WriteCards(subdir+'/w_cards_morphed_{charge}'.format(charge=charge), cmb)
 
 date = datetime.date.today().isoformat()
-date+='_charges'
 
 #card_dir = 'inputForCombine/unmorph/2016-10-20/'
 #card_dir = 'inputForCombine/unmorph/2016-10-24/'
@@ -76,9 +75,10 @@ date+='_charges'
 #card_dir = 'inputForCombine/unmorph/2016-11-03/'
 #buggy card_dir = 'inputForCombine/unmorph/2016-11-04/'
 #card_dir = 'inputForCombine/unmorph/2016-11-07/'
-card_dir = 'inputForCombine/unmorph/2016-11-25/'
+card_dir = 'inputForCombine/unmorph/2017-02-03/'
 subdirs = [x[0] for x in os.walk(card_dir)]
 
+print(subdirs)
 mwrange = '91,111'
 npoints = 25
 central = 101
@@ -95,9 +95,6 @@ for charge in charges:
         if subdir == subdirs[0]: continue
         if 'w_cards_morphed' in subdir: continue
         name = subdir.split('/')[-1]
-        if not 'eta_' in name: continue
-        if not name[-1] in ['5']: continue
-    
         if justHadd:
             print 'hadding {name}'.format(name=name)
             print '-------------------------------------------------------'

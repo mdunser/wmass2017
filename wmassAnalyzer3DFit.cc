@@ -237,6 +237,7 @@ public :
   TH3F * h_nominal_mtPtEta;
   TH3F * h_Gigi_check;
   TH3F * h_mtPtEta[21][53];
+  TH2F * h_PtEta[53];
   TH2F * h_pdfCheckUp;
   TH2F * h_pdfCheckDn;
 
@@ -490,6 +491,12 @@ void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
 
     h_Gigi_check = new TH3F("h_Gigi_check", "h_Gigi_check", nbins_muEta, muEta_min, muEta_max, nbins_muPt, muPt_min, muPt_max, nbins_logx, logx_min, logx_max);
     h_Gigi_check->Sumw2(); 
+
+    //make histograms for pt vs eta for each pdf variation
+    for (int p = 0; p<fNPDFsCT10+1; p++){
+      h_PtEta[p]=new TH2F(Form("h_PtEta_p%d",p), Form("h_PtEta_p%d",p), nbins_muEta, muEta_min, muEta_max, 25, muPt_min, muPt_max);
+      h_PtEta[p]->Sumw2();
+  }
 }
 
 void wmassAnalyzer::End(TFile *file){
@@ -517,6 +524,24 @@ void wmassAnalyzer::End(TFile *file){
             h_mtPtEta[m][p] -> Write();
         }
     }
+    TH1F *chi2=new TH1F("chi2_var", "chi2_var", 53, 0, 52);
+    for (int p = 0; p<fNPDFsCT10+1; p++){
+      h_PtEta[p] -> Write();
+      float obs=0, exp=0, sum_sq=0; 
+      //build chi-square for each variation
+      for(int i=1; i<h_PtEta[p] ->GetNbinsX()+1; i++){
+	for(int j=1; j<h_PtEta[p] ->GetNbinsX()+1; j++){
+	  int bin=h_PtEta[p]->GetBin(i,j);
+	  obs=h_PtEta[p]->GetBinContent(bin);
+	  exp=h_PtEta[0]->GetBinContent(bin);
+	  sum_sq+=((obs-exp)*(obs-exp))/exp;
+	}
+      }
+      chi2->SetBinContent(p, sum_sq);
+      chi2->GetXaxis()->SetBinLabel(p, Form("v_%d", p));
+	}
+    chi2->Write();
+
 
 
     //file->Write();
@@ -616,7 +641,8 @@ void wmassAnalyzer::fillHistograms(){
 
     float wgt;
     float pt  = (doGEN ? MuGen_pt  : Mu_pt );
-    float eta = (doGEN ? MuGen_eta : Mu_eta);
+    float eta = (doGEN ? MuGen_eta : Mu_eta); 
+    eta = std::abs(eta);
     float mt  = (doGEN ? WGen_mt   : W_mt  );
 
     // fill the nominal histogram
@@ -631,6 +657,11 @@ void wmassAnalyzer::fillHistograms(){
             h_mtPtEta[m][p] ->Fill(eta, pt, mt, wgt);
         } // end for loop over pdf variations
     } // end for loop over masses
+    for (int p = 0; p<fNPDFsCT10+1; p++){
+      wgt  = fLumiWeight;
+      wgt *= LHE_weight[309+p]       ; // 309 is the nominal. 310-361 are the up/down fluctuations  
+      h_PtEta[p] ->Fill(eta, pt, wgt);
+    }
 } // end fillMTandETAHistograms
 
 void wmassAnalyzer::fillGigiCheck(){

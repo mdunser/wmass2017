@@ -84,7 +84,7 @@ def runBatch(infiles):
         os.system('mkdir -p tmp/')
         thisdir = osp.abspath('.')
         
-        tmp_data = tmp_data.replace('AAA', '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/')
+        tmp_data = tmp_data.replace('AAA', '/afs/cern.ch/work/e/emanca/wmass/')
         tmp_data = tmp_data.replace('BBB', f.split('/')[-1])
         tmp_data = tmp_data.replace('CCC', opts.outDir)
         tmp_data = tmp_data.replace('XXX', thisdir+'/'+opts.libfile)
