@@ -7,9 +7,15 @@ struct binning {
     binning(){ setValues();};
     
     void setValues(){
-    nbins_mt    =  70; mt_min    = 50. ; mt_max    = 120. ;
-    nbins_muEta =  10; muEta_min = -2.1; muEta_max =   2.1;
-    nbins_muPt  =  10; muPt_min  = 30.0; muPt_max  =  50.0;
+    nbins_mt    =  70  ; 
+    mt_min      =  40. ; 
+    mt_max      = 110. ;
+    nbins_muEta =  10  ; 
+    muEta_min   =   0. ; 
+    muEta_max   =   2.1;
+    nbins_muPt  = 100  ; 
+    muPt_min    =  25. ; 
+    muPt_max    =  50. ;
     };
 
 };

@@ -181,9 +181,6 @@ void wmassAnalyzer::RunJob(TString filename, bool isData){ // this one is commen
   
 void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
     file->cd();
-    int nbins_mt    =  70; float mt_min    = 50. ; float mt_max    = 120. ;
-    int nbins_muEta =  10; float muEta_min = -2.1; float muEta_max =   2.1;
-    int nbins_muPt  =  10; float muPt_min  = 30.0; float muPt_max  =  50.0;
 
     for (int_it = fMassIDVec.begin(); int_it != fMassIDVec.end(); int_it++){
         std::cout << "at mass index " << *int_it << " going to initialize stuff" << std::endl;
@@ -237,7 +234,7 @@ bool wmassAnalyzer::IsGoodEvent()
     if(!*evtHasTrg)          return false;
     if(*tkmet  < 25.)        return false;
     if(!*MuIsTightAndIso)    return false;
-    if(std::abs(*WGen_rap)  > 0.5)  return false;
+    //if(std::abs(*WGen_rap)  > 0.5)  return false;
     if(*W_pt  > 10.)  return false; // upper cut on W-pt
 
     // very basic event selection
@@ -291,7 +288,7 @@ void wmassAnalyzer::fillHistograms(){
 
     float wgt;
     float pt  = (doGEN ? *MuGen_pt  : *Mu_pt );
-    float eta = (doGEN ? *MuGen_eta : *Mu_eta);
+    float eta = (doGEN ? *MuGen_eta : *Mu_eta); eta = std::abs(eta); // make sure to use the |eta|
     float mt  = (doGEN ? *WGen_mt   : *W_mt  );
 
     // fill the nominal histogram
