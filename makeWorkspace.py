@@ -94,8 +94,8 @@ def getPdfVarString(var):
     return '_'+vstring
 
 def unfoldHistogram(th3, charge):
-    mass = int([p for p in h_name.split('_') if p.startswith('mass') and all(i.isdigit() for i in p[1:])][0].lstrip('mass')) ## reading the mass id out of the histogram name
-    pdfv = int([p for p in h_name.split('_') if p.startswith('pdf' ) and all(i.isdigit() for i in p[1:])][0].lstrip('pdf' )) ## reading the pdf-variation id out of the name
+    mass = int([p for p in h_name.split('_') if p.startswith('m') and all(i.isdigit() for i in p[1:])][0].lstrip('m')) ## reading the mass id out of the histogram name
+    pdfv = int([p for p in h_name.split('_') if p.startswith('p') and all(i.isdigit() for i in p[1:])][0].lstrip('p')) ## reading the pdf-variation id out of the name
     nbinsEta = th3.GetNbinsX()
     nbinsPt  = th3.GetNbinsY()
     hs_inclusive_pt   = {}

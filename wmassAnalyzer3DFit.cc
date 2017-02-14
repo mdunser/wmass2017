@@ -24,6 +24,9 @@
 #include "TTreeReaderValue.h"
 #include "TTreeReaderArray.h"
 
+#include "binning.h"
+#include "nuisanceHistos.h"
+
 #include <iostream>
 
 using namespace std;
@@ -34,10 +37,6 @@ private:
 
     TTreeReader     &fTreeReader;
 
-    TH3F * h_nominal_mtPtEta;
-    TH3F * h_mtPtEta[21][53];
-    TH2F * h_pdfCheckUp;
-    TH2F * h_pdfCheckDn;
 
 
     // my functions hooray
@@ -47,6 +46,8 @@ private:
     int fMaxEvents;
     int fCharge;
     int fNMasses;
+    std::vector<int> fMassIDVec;
+    std::vector<int>::const_iterator int_it;
     int fMassOffset;
     int fStartMass;
     int fNPDFsCT10;
@@ -55,32 +56,41 @@ private:
 
     // Declaration of the TTreeReaderValues
     // We could do something better with RV and type references. For later.
-    TTreeReaderValue<Int_t>           evtHasGoodVtx = {fTreeReader,"evtHasGoodVtx"};
-    TTreeReaderValue<Double_t>        parton1_pdgId = {fTreeReader,"parton1_pdgId"};
-    TTreeReaderValue<Double_t>        parton1_x = {fTreeReader,"parton1_x"};
-    TTreeReaderValue<Double_t>        parton2_pdgId = {fTreeReader,"parton2_pdgId"};
-    TTreeReaderValue<Double_t>        parton2_x = {fTreeReader,"parton2_x"};
-    TTreeReaderArray<Double_t>        LHE_weight = {fTreeReader,"LHE_weight"};
-    TTreeReaderValue<Double_t>        tkmet = {fTreeReader,"tkmet"};
-    TTreeReaderValue<Double_t>        genpfmet = {fTreeReader,"genpfmet"};
-    TTreeReaderValue<Int_t>           evtHasTrg = {fTreeReader,"evtHasTrg"};
-    TTreeReaderValue<Double_t>        W_pt = {fTreeReader,"W_pt"};
-    TTreeReaderValue<Double_t>        W_mt = {fTreeReader,"W_mt"};
-    TTreeReaderValue<Double_t>        WGen_pt = {fTreeReader,"WGen_pt"};
-    TTreeReaderValue<Double_t>        WGen_rap = {fTreeReader,"WGen_rap"};
-    TTreeReaderValue<Double_t>        WGen_mass = {fTreeReader,"WGen_mass"};
-    TTreeReaderValue<Double_t>        WGen_mt = {fTreeReader,"WGen_mt"};
-    TTreeReaderValue<Double_t>        Mu_pt = {fTreeReader,"Mu_pt"};
-    TTreeReaderValue<Double_t>        Mu_eta = {fTreeReader,"Mu_eta"};
-    TTreeReaderValue<Double_t>        Mu_phi = {fTreeReader,"Mu_phi"};
-    TTreeReaderValue<Double_t>        Mu_charge = {fTreeReader,"Mu_charge"};
-    TTreeReaderValue<Int_t>           MuIsTightAndIso = {fTreeReader,"MuIsTightAndIso"};
-    TTreeReaderValue<Double_t>        MuGen_pt = {fTreeReader,"MuGen_pt"};
-    TTreeReaderValue<Double_t>        MuGen_eta = {fTreeReader,"MuGen_eta"};
-    TTreeReaderValue<Double_t>        MuGen_phi = {fTreeReader,"MuGen_phi"};
-    TTreeReaderValue<Double_t>        MuGen_charge = {fTreeReader,"MuGen_charge"};
+    TTreeReaderValue<Int_t>     evtHasGoodVtx   = {fTreeReader, "evtHasGoodVtx"   };
+    TTreeReaderValue<Double_t>  parton1_pdgId   = {fTreeReader, "parton1_pdgId"   };
+    TTreeReaderValue<Double_t>  parton1_x       = {fTreeReader, "parton1_x"       };
+    TTreeReaderValue<Double_t>  parton2_pdgId   = {fTreeReader, "parton2_pdgId"   };
+    TTreeReaderValue<Double_t>  parton2_x       = {fTreeReader, "parton2_x"       };
+    TTreeReaderArray<Double_t>  LHE_weight      = {fTreeReader, "LHE_weight"      };
+    TTreeReaderValue<Double_t>  tkmet           = {fTreeReader, "tkmet"           };
+    TTreeReaderValue<Double_t>  genpfmet        = {fTreeReader, "genpfmet"        };
+    TTreeReaderValue<Int_t>     evtHasTrg       = {fTreeReader, "evtHasTrg"       };
+    TTreeReaderValue<Double_t>  W_pt            = {fTreeReader, "W_pt"            };
+    TTreeReaderValue<Double_t>  W_mt            = {fTreeReader, "W_mt"            };
+    TTreeReaderValue<Double_t>  WGen_pt         = {fTreeReader, "WGen_pt"         };
+    TTreeReaderValue<Double_t>  WGen_rap        = {fTreeReader, "WGen_rap"        };
+    TTreeReaderValue<Double_t>  WGen_mass       = {fTreeReader, "WGen_mass"       };
+    TTreeReaderValue<Double_t>  WGen_mt         = {fTreeReader, "WGen_mt"         };
+    TTreeReaderValue<Double_t>  Mu_pt           = {fTreeReader, "Mu_pt"           };
+    TTreeReaderValue<Double_t>  Mu_eta          = {fTreeReader, "Mu_eta"          };
+    TTreeReaderValue<Double_t>  Mu_phi          = {fTreeReader, "Mu_phi"          };
+    TTreeReaderValue<Double_t>  Mu_charge       = {fTreeReader, "Mu_charge"       };
+    TTreeReaderValue<Int_t>     MuIsTightAndIso = {fTreeReader, "MuIsTightAndIso" };
+    TTreeReaderValue<Double_t>  MuGen_pt        = {fTreeReader, "MuGen_pt"        };
+    TTreeReaderValue<Double_t>  MuGen_eta       = {fTreeReader, "MuGen_eta"       };
+    TTreeReaderValue<Double_t>  MuGen_phi       = {fTreeReader, "MuGen_phi"       };
+    TTreeReaderValue<Double_t>  MuGen_charge    = {fTreeReader, "MuGen_charge"    };
 
 public :
+
+    std::vector< std::pair< int, nuisanceHistos * > > h_mtPtEtaVec;
+    std::vector< std::pair< int, nuisanceHistos * > >::const_iterator h_mtPtEtaVec_it;
+    std::vector< float > fNuisanceWeights;
+
+    // some extra histograms. not really necessary
+    TH3F * h_nominal_mtPtEta;
+    TH2F * h_pdfCheckUp;
+    TH2F * h_pdfCheckDn;
 
     wmassAnalyzer(TTreeReader& treeReader, 
                   int charge = 1, 
@@ -117,8 +127,22 @@ wmassAnalyzer::wmassAnalyzer(TTreeReader& treeReader,
     doGEN = doGen;
     fMaxEvents = -1;
     fCharge = charge;
-    fMassOffset= 101; // LHE_weight[101] has the central value stored. 80.398. it's not the right one, but whatever
-    fNMasses   = 21;
+    // LHE_weight[101] has the central value stored. 80.398. it's not the right one, but whatever
+    // each mass index is separated by 2 MeV
+    fMassOffset = 101; 
+    fNMasses    = 11;
+    float fdeltaM     = 40;
+    int massMinID   = fMassOffset - (int) fdeltaM/2.;
+    int massMaxID   = fMassOffset + (int) fdeltaM/2.;
+    int step = (massMaxID - massMinID )/fNMasses +1;
+    while (massMinID <= massMaxID) {
+        fMassIDVec.push_back(massMinID);
+        massMinID += step;
+    }
+    // for (int_it = fMassIDVec.begin(); int_it != fMassIDVec.end(); int_it++){
+    //     std::cout << *int_it << std::endl;
+    // }
+    
     fStartMass = (int) (fMassOffset - fNMasses/2. + 1);
     fNPDFsCT10 = 52;
     float nGen, xsec;
@@ -157,19 +181,13 @@ void wmassAnalyzer::RunJob(TString filename, bool isData){ // this one is commen
   
 void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
     file->cd();
-    int nbins_mt    =  70; float mt_min    = 50. ; float mt_max    = 120. ;
-    int nbins_muEta =  10; float muEta_min = -2.1; float muEta_max =   2.1;
-    int nbins_muPt  =  10; float muPt_min  = 30.0; float muPt_max  =  50.0;
 
-    // make histograms for mt and muEta
-    h_nominal_mtPtEta = new TH3F("h_nominal_mtPtEta", "h_nominal_mtPtEta", nbins_muEta, muEta_min, muEta_max, nbins_muPt, muPt_min, muPt_max, nbins_mt, mt_min, mt_max);
-    h_nominal_mtPtEta ->Sumw2();
-    for (int m=0; m< fNMasses; m++){
-        for (int p = 0; p<fNPDFsCT10+1; p++){
-            h_mtPtEta[m][p] = new TH3F(Form("h_mtPtEta_m%d_p%d",m+fStartMass,p), Form("h_mtPtEta_m%d_p%d",m+fStartMass,p), nbins_muEta, muEta_min, muEta_max, nbins_muPt, muPt_min, muPt_max, nbins_mt, mt_min, mt_max);
-            h_mtPtEta[m][p] ->Sumw2();
-        } // end loop on pdf variations
-    } // end loop on masses
+    for (int_it = fMassIDVec.begin(); int_it != fMassIDVec.end(); int_it++){
+        std::cout << "at mass index " << *int_it << " going to initialize stuff" << std::endl;
+        nuisanceHistos * tmp_nH= new nuisanceHistos(*int_it, "pdf"); 
+        h_mtPtEtaVec.push_back( std::make_pair(*int_it, tmp_nH) );
+    }
+
     h_pdfCheckUp = new TH2F("pdfWeightUp", "pdfWeightUp", 120, 70, 100, 1000, -0.5, 30.);
     h_pdfCheckDn = new TH2F("pdfWeightDn", "pdfWeightDn", 120, 70, 100, 1000, -0.5, 30.);
     h_pdfCheckUp ->Sumw2();
@@ -179,14 +197,10 @@ void wmassAnalyzer::Begin(TFile *file){ // book the histograms and all
 void wmassAnalyzer::End(TFile *file){
     file->cd();
 
-    // save all the variation histograms
-    h_nominal_mtPtEta -> Write();
-    for (int m=0; m< fNMasses; m++){
-        for (int p = 0; p<fNPDFsCT10+1; p++){
-            h_mtPtEta[m][p] -> Write();
-        } // end loop pdf variations
-    } //end loop masses
-
+    for (h_mtPtEtaVec_it = h_mtPtEtaVec.begin(); h_mtPtEtaVec_it != h_mtPtEtaVec.end(); h_mtPtEtaVec_it++){
+        h_mtPtEtaVec_it->second->writeHistos(file);
+    }
+        
     h_pdfCheckUp -> Write();
     h_pdfCheckDn -> Write();
 
@@ -195,21 +209,23 @@ void wmassAnalyzer::End(TFile *file){
 
 TList* wmassAnalyzer::GetHistosList(){
 
-   Begin();
-   Loop();
+    // need this for map-reduce, but not at the moment
 
-   auto l = new TList();
+    Begin();
+    Loop();
+
+    auto l = new TList();
     l->Add(h_nominal_mtPtEta);
-    for (int m=0; m< fNMasses; m++) {
-        for (int p = 0; p<fNPDFsCT10+1; p++){
-            l->Add(h_mtPtEta[m][p]);
-        }
-    }
+    // for (int m=0; m< fNMasses; m++) {
+    //     for (int p = 0; p<fNPDFsCT10+1; p++){
+    //         l->Add(h_mtPtEta[m][p]);
+    //     }
+    // }
 
     l->Add(h_pdfCheckUp);
     l->Add(h_pdfCheckDn);
 
-   return l;
+    return l;
 }
 
 bool wmassAnalyzer::IsGoodEvent()
@@ -218,8 +234,8 @@ bool wmassAnalyzer::IsGoodEvent()
     if(!*evtHasTrg)          return false;
     if(*tkmet  < 25.)        return false;
     if(!*MuIsTightAndIso)    return false;
-    // if(std::abs(*WGen_rap)  > 0.5)  return false;
-    // if(*W_pt  > 10.)  return false; // upper cut on W-pt
+    //if(std::abs(*WGen_rap)  > 0.5)  return false;
+    if(*W_pt  > 10.)  return false; // upper cut on W-pt
 
     // very basic event selection
     if (doGEN) {
@@ -272,21 +288,25 @@ void wmassAnalyzer::fillHistograms(){
 
     float wgt;
     float pt  = (doGEN ? *MuGen_pt  : *Mu_pt );
-    float eta = (doGEN ? *MuGen_eta : *Mu_eta);
+    float eta = (doGEN ? *MuGen_eta : *Mu_eta); eta = std::abs(eta); // make sure to use the |eta|
     float mt  = (doGEN ? *WGen_mt   : *W_mt  );
 
     // fill the nominal histogram
-    h_nominal_mtPtEta ->Fill(eta, pt, mt, fLumiWeight*LHE_weight[309]*LHE_weight[101]);
+    // h_nominal_mtPtEta ->Fill(eta, pt, mt, fLumiWeight*LHE_weight[309]*LHE_weight[101]);
 
-    // loop on all masses and variations
-    for (int m=0; m< fNMasses; m++){
-        for (int p = 0; p<fNPDFsCT10+1; p++){
-            wgt  = fLumiWeight;
-            wgt *= LHE_weight[m+fStartMass]; // multiply the mass weight
-            wgt *= LHE_weight[309+p]       ; // 309 is the nominal. 310-361 are the up/down fluctuations
-            h_mtPtEta[m][p] ->Fill(eta, pt, mt, wgt);
-        } // end for loop over pdf variations
-    } // end for loop over masses
+    for (h_mtPtEtaVec_it = h_mtPtEtaVec.begin(); h_mtPtEtaVec_it != h_mtPtEtaVec.end(); h_mtPtEtaVec_it++){
+        // this is the weight for lumi and the correct mass:
+        wgt = fLumiWeight * LHE_weight[ h_mtPtEtaVec_it->first ];
+
+        if ( h_mtPtEtaVec_it->second->isPdfUncertainty ){
+            for (int i = 309; i < 362; ++i){
+                fNuisanceWeights.push_back( wgt * LHE_weight[i] ); // stores all the weights for the pdf uncertainties
+            }
+        }
+
+        fNuisanceWeights = h_mtPtEtaVec_it->second->fillHistos(eta, pt, mt, fNuisanceWeights); // this function resets the fNuisanceWeights!
+        
+    }
 
 } // end fillMTandETAHistograms
 

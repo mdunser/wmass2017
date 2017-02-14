@@ -1,0 +1,15 @@
+max 1
+jmax 0
+kmax *
+---------------
+shapes * * ZZZ $PROCESS $PROCESS_$SYSTEMATIC
+---------------
+bin 1
+observation -1
+------------------------------
+bin             1          
+process         XXX      
+process         -1         
+rate            AAA 
+--------------------------------
+
