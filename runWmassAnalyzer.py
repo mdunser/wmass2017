@@ -3,6 +3,9 @@ import sys, os
 import os.path as osp
 import string, random
 
+global USER
+USER = os.environ['USER']
+
 def randomid(length):
    return ''.join(random.choice(string.lowercase) for i in range(length))
 
@@ -14,7 +17,7 @@ def getEOSlslist(directory, mask='', prepend='root://eoscms//eos/cms'):
 
     #eos_cmd = '/afs/cern.ch/project/eos/installation/0.2.41/bin/eos.select'
     eos_cmd = '/afs/cern.ch/project/eos/installation/0.3.84-aquamarine/bin/eos.select'
-    os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/m/mdunser/private/proxy/myproxy'
+    os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/{u}/{user}/private/proxy/myproxy'.format(u=USER[0],user=USER)
     data = Popen([eos_cmd, 'ls', '/eos/cms/'+directory],
                 stdout=PIPE)
     out,err = data.communicate()
@@ -44,7 +47,7 @@ def getEOSlslist(directory, mask='', prepend='root://eoscms//eos/cms'):
 def cacheLocally(infile, tmpDir='/tmp/'):
     return infile
     #tmpfile = osp.join(tmpDir, osp.basename(infile))
-    tmpfile = osp.join('/tmp/mdunser/', osp.basename(infile))
+    tmpfile = osp.join('/tmp/{user}/'.format(user=USER), osp.basename(infile))
 
     print 'the target file in the tmp directory is', tmpfile
 
@@ -53,7 +56,7 @@ def cacheLocally(infile, tmpDir='/tmp/'):
         xrcmd = "xrdcp {s} {t}".format(s=infile, t=tmpfile)
         #xrcmd = "cmsStage {s} {t}".format(s=infile[infile.find('/store'):], t=tmpfile) # cmsStage copy command
         print " transferring %s to %s" % (infile, tmpfile)
-        os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/m/mdunser/private/proxy/myproxy'
+        os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/{u}/{user}/private/proxy/myproxy'.format(u=USER[0],user=USER)
         print 'this is the output of the X509_USER_PROXY:', os.environ['X509_USER_PROXY']
         print '================================================================'
         print '= running command: {cmd}'.format(cmd=xrcmd)
@@ -64,7 +67,7 @@ def cacheLocally(infile, tmpDir='/tmp/'):
     print 'THIS IS THE LS OF THE TMPDIR'
     print os.listdir(tmpDir)
     print 'THIS IS THE LS OF /tmp/'
-    print os.listdir('/tmp/mdunser/')
+    print os.listdir('/tmp/{user}/'.format(user=USER))
 
     if osp.exists(tmpfile): infile = tmpfile
     #return infile
@@ -84,7 +87,7 @@ def runBatch(infiles):
         os.system('mkdir -p tmp/')
         thisdir = osp.abspath('.')
         
-        tmp_data = tmp_data.replace('AAA', '/afs/cern.ch/work/m/mdunser/public/wmass/restartSeptember/')
+        tmp_data = tmp_data.replace('AAA', '/afs/cern.ch/work/{u}/{user}/public/wmass/restartSeptember/'.format(u=USER[0],user=USER))
         tmp_data = tmp_data.replace('BBB', f.split('/')[-1])
         tmp_data = tmp_data.replace('CCC', opts.outDir)
         tmp_data = tmp_data.replace('XXX', thisdir+'/'+opts.libfile)
@@ -171,7 +174,7 @@ if __name__ == '__main__':
     global opts, args
     (opts, args) = parser.parse_args()
 
-    os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/m/mdunser/private/proxy/myproxy'
+    os.environ['X509_USER_PROXY'] = '/afs/cern.ch/user/{u}/{user}/private/proxy/myproxy'.format(u=USER[0],user=USER)
 
     # Collect all input:
     idir = args[0]
