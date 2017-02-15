@@ -34,6 +34,15 @@ run the python wrapper:
 
 ##
 
+
+
+
+## =============================================================
+## =============================================================
+## FORGET ABOUT WHAT IS WRITTEN BELOW THIS LINE.
+## =============================================================
+## =============================================================
+
 ## combine commands
 
 ## combine   -M MaxLikelihoodFit --saveNLL datacardShapes.txt -t -1                 --expectSignal=1     -S 1
