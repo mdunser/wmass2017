@@ -10,7 +10,7 @@ def get3DBinContentError(th3, b, i1, i2, ax):
         bins = [i1, i2,  b]
 
     c = th3.GetBinContent(bins[0], bins[1], bins[2])
-    #e = th3.GetBinError  (bins[0], bins[1], bins[2])
+    e = th3.GetBinError  (bins[0], bins[1], bins[2])
 
     return c,e
     
@@ -23,7 +23,7 @@ def fill3DBinContentError(th3, b, i1, i2, ax, c, e):
         bins = [i1, i2,  b]
 
     th3.SetBinContent(bins[0], bins[1], bins[2], c)
-    #th3.SetBinError  (bins[0], bins[1], bins[2], e)
+    th3.SetBinError  (bins[0], bins[1], bins[2], e)
     
 def clone3DHisto(th3, axes):
     axes_arrays = []
