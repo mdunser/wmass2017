@@ -9,6 +9,7 @@ export OUTDIR="CCC"
 export THISDIR="DDD"
 export CHARGE="EEE"
 export LUMI="FFF"
+export GEN="GGG"
 
 echo "BATCH: i am here"
 $PWD
@@ -22,8 +23,8 @@ echo "BATCH: copying the executable here"
 cp $THISDIR/$PY_WRAPPER .
 echo "==========================================================================="
 echo "=============== i am going to run this command ============================"
-echo python $PY_WRAPPER $EOS_DIR  -o $BASEDIR/$OUTDIR/ -f $FILENAME -c $CHARGE -l $LUMI
+echo python $PY_WRAPPER $EOS_DIR  -o $BASEDIR/$OUTDIR/ -f $FILENAME $GEN -c $CHARGE -l $LUMI
 echo "==========================================================================="
 echo "==========================================================================="
 echo "BATCH: starting the job"
-python $PY_WRAPPER $EOS_DIR  -o $BASEDIR/$OUTDIR/ -f $FILENAME -c $CHARGE -l $LUMI
+python $PY_WRAPPER $EOS_DIR  -o $BASEDIR/$OUTDIR/ -f $FILENAME $GEN -c $CHARGE -l $LUMI
